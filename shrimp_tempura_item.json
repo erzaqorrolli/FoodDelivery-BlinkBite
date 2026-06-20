@@ -1,0 +1,12 @@
+{
+    "id":  1,
+    "emertimi":  "Single BBQ Beefacon",
+    "pershkrimi":  "Grilled beef layered with beefacon and tangy BBQ sauce.",
+    "cmimi":  3.90,
+    "foto":  "menuitems/beefacon.jpg",
+    "disponueshme":  true,
+    "alergjene":  "Gluten, Dairy, Eggs, Soy, Mustard",
+    "kalori":  750,
+    "categoryId":  1,
+    "category":  null
+}

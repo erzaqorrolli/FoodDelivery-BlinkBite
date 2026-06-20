@@ -1,0 +1,88 @@
+﻿{
+    "generatedAt":  "2026-05-23T14:09:22",
+    "apiBase":  "http://localhost:5063/api",
+    "startedApi":  false,
+    "registerStatus":  200,
+    "assignBranchId":  1,
+    "tests":  [
+                  {
+                      "test":  "Admin login",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Merchant login",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Merchant dashboard",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Merchant restaurant 1 addresses",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Admin assign branch manager",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  "branchId=1"
+                  },
+                  {
+                      "test":  "Branch manager login",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Branch manager dashboard",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Branch manager restaurant 1 addresses",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Branch manager restaurant 2 addresses forbidden",
+                      "expected":  403,
+                      "actual":  403,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Branch manager promotions restaurant 1",
+                      "expected":  200,
+                      "actual":  200,
+                      "pass":  true,
+                      "detail":  ""
+                  },
+                  {
+                      "test":  "Branch manager promotions restaurant 2 forbidden",
+                      "expected":  403,
+                      "actual":  200,
+                      "pass":  false,
+                      "detail":  ""
+                  }
+              ],
+    "passCount":  10,
+    "failCount":  null
+}
